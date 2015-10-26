@@ -1,3 +1,3 @@
-# MC_JewelryBackboneApp
+# MarieClaireJewelry BackboneJS App
 
-BackboneJS based front-end for managing the views and information on marieclairejewelry.com
+BackboneJS and JQuery based front-end for managing the views and information on marieclairejewelry.com website
