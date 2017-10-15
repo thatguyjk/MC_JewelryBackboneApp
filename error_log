@@ -1,0 +1,2 @@
+[04-Mar-2013 13:34:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mariec/public_html/verify.php:95) in /home/mariec/public_html/verify.php on line 96
+[04-Mar-2013 13:35:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mariec/public_html/verify.php:95) in /home/mariec/public_html/verify.php on line 96

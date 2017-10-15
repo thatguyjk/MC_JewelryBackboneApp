@@ -1,0 +1,1126 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+a {
+    color: #000;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.outline {
+    outline: 1px dotted #f00;
+}
+
+.visuallyCentered {
+    position: absolute;
+    bottom: 50%;
+    left: 30.5%;
+}
+
+.centered {
+    margin: 0 auto;
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.offWhite {
+    background-color: #f3f1eb;
+}
+
+.pt11 {
+    font-size: 11px;
+}
+
+.pt12 {
+    font-size: 12px;
+}
+
+.pt13 {
+    font-size: 13px;
+}
+
+.pt14 {
+    font-size: 14px;
+}
+
+.pt18 {
+    font-size: 18px;
+}
+
+/* ==============================
+Web Fonts
+================================ */
+@font-face {
+    font-family: AvantGardeBook;
+    src: url('fonts/AvantGarde_Book.eot');
+    src: url('fonts/AvantGarde_Book.svg');
+    src: url('fonts/AvantGarde_Book.ttf');
+    src: url('fonts/AvantGarde_Book.woff');
+}
+
+@font-face {
+    font-family: AvantGardeExtraLight;
+    src: url('fonts/AvantGarde_ExtraLight.eot');
+    src: url('fonts/AvantGarde_ExtraLight.svg');
+    src: url('fonts/AvantGarde_ExtraLight.ttf');
+    src: url('fonts/AvantGarde_ExtraLight.woff');
+}
+
+/* ==============================
+================================ */
+
+.goog-te-banner table {
+    position: relative;
+    float: left;
+}
+
+#browserPrompt {
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+    font-size: .6em;
+    color: #f00;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5e9;
+    background-image: url(../img/bgPattern.jpg);
+    background-repeat: repeat-x;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#wrap {
+    position: relative;
+    width: 960px;
+    min-height: 933px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #f4f5e9;
+    position: relative;
+    height: 168px;
+    width: inherit;
+}
+
+#searchBar {
+    position: relative;
+    top: 0;
+    left:-4px;
+    width: 963px;
+    height: 26px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    background-color: #000;
+    box-shadow: 0px 2px 10px #555;
+    -moz-box-shadow: 0px 2px 10px #555;
+    -webkit-box-shadow: 0px 2px 10px #555;
+    -o-box-shadow: 0px 2px 10px #555;
+    -ms-box-shadow: 0px 2px 10px #555;
+}
+
+.left {
+    left: 36px;
+}
+
+.right {
+    right: 36px;
+}
+
+.searchForm {
+    height: 18px;
+    width: 168px;
+    font-size: 12px;
+    color: #888;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+}
+
+.shopDot {
+    position: absolute;
+    cursor: pointer;
+}
+
+#header ul {
+    text-align: center;
+}
+
+#header ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #c3b69b;
+    color: #000;
+}
+
+#header ul li:last-child {
+    border: none;
+}
+
+#header li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#header li a:hover, #header li a:active {
+    color: #c3b69b;
+}
+
+#header li ul {
+    display: none;
+}
+
+#header li:hover ul {
+    position: absolute;
+    left: 27%;
+    padding-top: 10px;
+    display: inline;
+    font-size: 12px;
+}
+
+#content {
+    background-color: #f3f1eb;
+    background-image: url(../img/mcEmblem.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    margin-left: 0;
+    margin-right:0;
+    width: inherit;
+    height: 671px;
+    line-height: 1.6;
+    clear: both;
+    margin-bottom: 4px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#slideContainer {
+    position: relative;
+    width: 916px;
+    height: 646px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.imageViewer {
+    position: relative;
+    height: 529px;
+    width: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    clear: both;
+}
+
+.imgViewport {
+    position: absolute;
+    margin: 0 auto;
+    height: inherit;
+    width: 100%;
+    overflow: hidden;
+}
+
+.leftArrowScroll {
+    position: relative;
+    float: left;
+    width: 60px;
+    height: inherit;
+    background-image: url('../img/leftArrowScroll.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 100;
+}
+
+.rightArrowScroll {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: inherit;
+    overflow: hidden;
+    background-image: url('../img/rightArrowScroll.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 100;
+}
+
+#clsqNecklaceImg {
+    position: absolute;
+    left: 0;
+}
+
+#bookPageImg {
+    position: relative;
+    margin: 0 auto;    
+    top: 0;
+    -webkit-box-shadow: 0 4px 6px -6px black;
+    -moz-box-shadow: 0 4px 6px -6px black;
+    box-shadow: 0 8px 4px -6px black;}
+
+#lookBookThumbs img {
+    border-bottom: 2px solid rgb(228, 224, 206);
+    display: inline;
+}
+
+#lookBookThumbs a:hover img, #lookBookThumbs a:active img {
+    border: 2px solid #c3b69b;
+}
+
+#footer {
+    width: 898px;
+    height: 85px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 31px;
+    padding-right: 31px;
+    bottom: 0;
+}
+
+#footer table, td a, td a:visited {
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    border-collapse: collapse;
+    text-decoration: none;
+}
+
+#footer table td {
+    padding-right: 70px;
+    padding-bottom: 3px;
+}
+
+td a:hover, td a:active {
+    color: #c3b69b;
+}
+
+.socialIcons {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+}
+
+.socialIcons a:hover img {
+    box-shadow: 0px 2px #c3b69b;
+    -moz-box-shadow: 0px 2px #c3b69b;
+    -webkit-box-shadow: 0px 2px #c3b69b;
+    -o-box-shadow: 0px 2px #c3b69b;
+    -ms-box-shadow: 0px 2px #c3b69b;}
+
+.fullWidth {
+    width: 100%;
+}
+
+#leftFloat {
+    float: left;
+    clear: left;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-position: 0px 0px;
+}
+
+#rightFloat {
+    float: right;
+    clear: right;
+    width: 50%;
+    overflow: hidden;  
+    height: 100%;
+
+    background-position: 0px 0px;
+}
+
+.banner {
+    background-color: rgb(184, 185, 176);
+    background-color: rgba(184, 185, 176, 0.6);
+    position: relative;
+    bottom: 4.5em;
+    box-sizing: border-box;
+    padding: 0.5em 0.3em 0.5em 0.3em;
+    overflow: auto;
+    width: 100%;
+}
+
+#leftFloat a:hover > img, #rightFloat a:hover > img {
+    filter: brightness(75%);
+    -webkit-filter: brightness(75%);
+    -moz-filter: brightness(75%);
+}
+
+.bodyCopy {
+    color: #000;
+    font-family: AvantGardeBook;
+}
+
+.classiqueCollection, .chicCollection {
+    color: #000;
+    cursor: pointer;
+}
+
+#contentView {
+    position: absolute;
+    width: 100%;
+    height: 671px;
+    background-color: #ebe6dd;
+    clear: both;
+    display: none;
+    overflow: visible;
+}
+
+.displayImg {
+    width: 400px;
+    height: 671px;
+    background-size: cover;
+    background-position: center;
+}
+
+.clsqProductImage {
+    background-image: url(../img/classiqueMainProduct.jpg);
+    position: relative;
+    left: 0;
+}
+
+.chicProductImage {
+    background-image: url(../img/chicMainProduct.jpg);
+    left: 0;
+    position: relative;
+}
+
+#formContainer {
+    position: relative;
+    width: 250px;
+    margin-left: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 13px;
+    text-align: left;
+    background-color: #d5cbb4;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    clear: both;
+}
+
+#formContainer input[type="submit"], #formContainer input[type="reset"] {
+    float: right;
+    background-color: #e7e1d3;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+    margin-left:5px;
+    margin-right:5px;
+
+    height: 30px;
+}
+
+#formContainer textarea {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 5px;
+    resize: none; 
+    overflow: auto;
+}
+
+input#name, input#email {
+    width:200px;
+}
+
+input#subject {
+    width: 190px;
+}
+
+.productThumb {
+    background-color: #fff;
+    width: 165px;
+    height: 158px;
+    margin: 3px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.triangle {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    background-image: url(../img/goldTriangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    width: 25px;
+    height: 25px;
+}
+
+
+#shopTheLook {
+    position: absolute;
+    display: none;
+    width: 700px;
+    height: 518px;
+    -moz-box-shadow: 3px 4px 6px #141414;
+    -webkit-box-shadow: 3px 4px 6px #141414;
+    box-shadow: 3px 4px 6px #141414;
+    z-index: 501;
+}
+
+
+/* ==========================================================================
+    Scroll bar styling  classes
+   ========================================================================== */
+
+#scrollbar1 {
+    width:540px;
+    height: 651px;
+    margin: 5px;
+    overflow: auto;
+}
+#scrollbar1 .viewport { 
+    clear: both;
+    width: 520px;
+    height: 651px;
+    overflow: hidden; 
+    position: absolute; 
+}
+#scrollbar1 .overview { 
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { 
+    background-color: #fcf9f7;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px; 
+}
+#scrollbar1 .scrollbar { 
+    position: relative; 
+    float: right; 
+    width: 15px;  
+}
+#scrollbar1 .track { 
+    background-color: #baab8c; 
+    height: 100%; 
+    width:13px; 
+    position: relative; 
+    padding: 0 1px;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;
+}
+#scrollbar1 .thumb { 
+    height: 20px; 
+    width: 13px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;    
+}
+#scrollbar1 .thumb .end { 
+    overflow: hidden; 
+    height: 20px; 
+    width: 13px; 
+}
+#scrollbar1 .disable{ 
+    display: none; 
+}
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+
+
+/* ==========================================================================
+    Lookbook Scroll bar styling  classes
+   ========================================================================== */
+
+#scrollbar2 {
+    width: 916px;
+    height: 110px;
+}
+
+#scrollbar2 .viewport { 
+    width: 916px;
+    height: 81px;
+    overflow: hidden; 
+    position: relative; 
+}
+#scrollbar2 .overview {
+    width: 2500px;
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+
+#scrollbar2 .overview img {
+    margin-right: 10px;
+    float: left;
+}
+
+#scrollbar2 .thumb .end,
+#scrollbar2 .thumb { 
+    background-color: #fcf9f7;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px; 
+}
+
+#scrollbar2 .scrollbar { 
+    position: relative;
+    margin-top: 5px;
+    width: 15px;  
+}
+
+#scrollbar2 .track { 
+    background-color: #baab8c; 
+    height: 13px; 
+    width:916px; 
+    position: relative; 
+    padding: 0 1px;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;
+}
+
+#scrollbar2 .thumb { 
+    height: 13px; 
+    width: 13px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;    
+}
+
+#scrollbar2 .thumb .end { 
+    overflow: hidden; 
+    height: 13px; 
+    width: 13px; 
+}
+
+#scrollbar2 .disable{ 
+    display: none; 
+}
+
+
+/* ==========================================================================
+    Search page bar styling  classes
+   ========================================================================== */
+
+
+#scrollbar3 {
+    width:900px;
+    height: 651px;
+    margin: 5px;
+    overflow: auto;
+}
+#scrollbar3 .viewport { 
+    clear: both;
+    width: 885px;
+    height: 651px;
+    overflow: hidden; 
+    position: absolute; 
+}
+#scrollbar3 .overview { 
+    list-style: none; 
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+#scrollbar3 .thumb .end,
+#scrollbar3 .thumb { 
+    background-color: #fcf9f7;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px; 
+}
+#scrollbar3 .scrollbar { 
+    position: relative; 
+    float: right; 
+    width: 15px;  
+}
+#scrollbar3 .track { 
+    background-color: #baab8c; 
+    height: 100%; 
+    width:13px; 
+    position: relative; 
+    padding: 0 1px;
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;
+}
+#scrollbar3 .thumb { 
+    height: 20px; 
+    width: 13px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;    
+}
+#scrollbar3 .thumb .end { 
+    overflow: hidden; 
+    height: 20px; 
+    width: 13px; 
+}
+
+
+
+/* Product details div */
+#stuff {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.centerDetails {
+    position: absolute;
+    height: 380px;
+    width: 650px;
+    left: 10%;
+    top:20%;
+    display: none;
+}
+
+.details {
+    background-color: #fff;
+    border:2px solid #cccccc;
+    clear: both;
+    padding: 5px;
+    position: absolute;
+    height: 380px;
+    width: 650px;
+    left: 10%;
+    top:20%;
+    z-index: 500;
+
+    box-shadow: 3px 3px 8px rgba(10, 10, 10, 50);
+    -moz-box-shadow: 3px 3px 8px rgba(10, 10, 10, 50);
+    -webkit-box-shadow: 3px 3px 8px rgba(10, 10, 10, 50);
+    -o-box-shadow: 3px 3px 8px rgba(10, 10, 10, 50);
+    -ms-box-shadow: 3px 3px 8px rgba(10, 10, 10, 50);
+}
+
+.details #detailImg {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    clear: left;
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    outline: 2px solid #e0e0e0;
+}
+
+.details #detailImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.details #detailText {
+    color: #ad9d7e;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    float: right;
+    clear: right;
+    width: 265px;
+    height: 328px;
+    outline: 2px solid #e0e0e0;
+}
+
+.availableAt {
+    color: #000;
+}
+
+.closeMe {
+    display: block;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    z-index: 800;
+}
+
+#fbLike {
+    position: absolute;
+    width: 95%; 
+    height: 25px;
+    bottom: -8px;
+    left: 5px;
+    z-index: 500;
+}
+
+#fbLike img {
+    position: relative;
+    float: right; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.comingSoon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/comingSoon.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
