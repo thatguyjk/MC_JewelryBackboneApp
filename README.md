@@ -1,3 +1,5 @@
 # MarieClaireJewelry BackboneJS App
 
-BackboneJS and JQuery based front-end for managing the views and information on www.marieclairejewelry.com website. Created at Richline Group, Inc.
+BackboneJS and JQuery based front-end for managing the views and information on www.marieclairejewelry.com website (now offline). Created at Richline Group, Inc.
+
+You can find an archive of the site at http://www.thatguy.tv/archive/MarieClaireJewelry
