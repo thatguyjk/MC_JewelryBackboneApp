@@ -314,6 +314,8 @@ body {
     margin-bottom: 4px;
     text-align: center;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #slideContainer {
@@ -435,19 +437,19 @@ td a:hover, td a:active {
 }
 
 #leftFloat {
-    float: left;
-    clear: left;
+    /* float: left;
+    clear: left; */
     width: 50%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-position: 0px 0px;
 }
 
 #rightFloat {
-    float: right;
-    clear: right;
+    /* float: right;
+    clear: right; */
     width: 50%;
-    overflow: hidden;  
+    /* overflow: hidden;   */
     height: 100%;
 
     background-position: 0px 0px;
